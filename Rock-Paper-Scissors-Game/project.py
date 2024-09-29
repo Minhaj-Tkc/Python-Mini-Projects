@@ -20,6 +20,7 @@ def play_rps():
         print("You win!")
     else:
         print("You lose!")
+        
 
 if __name__ == "__main__":
     play_rps()
