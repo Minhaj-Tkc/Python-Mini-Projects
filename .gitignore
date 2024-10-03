@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+ENV/
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+wheels/
+
+# Django migrations
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+
+# Environment variable files
+.env
+.venv
+
+# VS Code workspace settings
+.vscode/
+
+# macOS specific files
+.DS_Store
