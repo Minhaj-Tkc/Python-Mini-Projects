@@ -13,7 +13,14 @@ def speak(text):
 
 
 def processCommand(c):
-    print(c)
+    if "open google" in c.lower():
+        webbrowser.open("https://www.google.com")
+    elif "open facebook" in c.lower():
+        webbrowser.open("https://www.facebook.com/")
+    elif "open youtube" in c.lower():
+        webbrowser.open("https://www.youtube.com/")
+    elif "open linkedin" in c.lower():
+        webbrowser.open("https://www.linkedin.com/")
 
 
 if __name__ == "__main__":
