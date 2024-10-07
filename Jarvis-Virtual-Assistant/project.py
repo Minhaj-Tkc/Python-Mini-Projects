@@ -21,6 +21,8 @@ def processCommand(c):
         webbrowser.open("https://www.youtube.com/")
     elif "open linkedin" in c.lower():
         webbrowser.open("https://www.linkedin.com/")
+    elif "open linkedin" in c.lower():
+        webbrowser.open("https://www.chatgpt.com/")
 
 
 if __name__ == "__main__":
