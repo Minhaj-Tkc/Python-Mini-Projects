@@ -1,5 +1,6 @@
-
 import qrcode
+
+# pip install qrcode
 
 data = input('Enter the text or URL: ').strip()
 filename = input('Enter the filename: ').strip()
@@ -9,5 +10,6 @@ qr.add_data(data)
 
 image = qr.make_image(fill_color="black", back_color="white")
 image.save(filename)
-print("QRCode saved")
+
+print(f"QRCode saved as {filename}")
 
